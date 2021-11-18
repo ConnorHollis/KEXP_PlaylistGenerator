@@ -168,7 +168,7 @@ namespace KEXP
             var tokenResponse = await new OAuthClient(config).RequestToken(
                 new AuthorizationCodeTokenRequest(
                     "73905da1b7b54060a280a3b09e4ce97e",
-                    "3d2b27d4533d4d08aaa5f983f3172075", 
+                    "REPLACE ME", 
                     response.Code, 
                     new Uri("http://localhost:5000/callback")
                 )
