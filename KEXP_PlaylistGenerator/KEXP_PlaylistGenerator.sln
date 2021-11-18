@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KEXP_PlaylistGenerator", "KEXP_PlaylistGenerator\KEXP_PlaylistGenerator.csproj", "{53518CA2-A984-4E53-B419-3C225B38F054}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A} = {C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}
+		{F47C5EC9-0622-458E-AB2C-C86340F0A559} = {F47C5EC9-0622-458E-AB2C-C86340F0A559}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KEXP", "KEXP\KEXP.csproj", "{F47C5EC9-0622-458E-AB2C-C86340F0A559}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A} = {C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "PlaylistGeneratorInterfaces\Interfaces.csproj", "{8B639406-7326-4E7F-AFD4-63FCD252F06D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MusicSources", "MusicSources", "{D395CE08-0047-4F17-B2B5-1F58C17E584D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generators", "Generators", "{060C6A82-4C19-4AA2-8A13-D09C8A7C4D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{55C035CF-8D4A-4620-970F-1A0B1AADAFFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Youtube", "Youtube\Youtube.csproj", "{463AD658-AD35-407A-8157-5ABF58E7B0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spotify", "Spotify\Spotify.csproj", "{2CBDDCC0-8EC4-44DA-A7F8-34DDEB143414}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53518CA2-A984-4E53-B419-3C225B38F054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53518CA2-A984-4E53-B419-3C225B38F054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53518CA2-A984-4E53-B419-3C225B38F054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53518CA2-A984-4E53-B419-3C225B38F054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47C5EC9-0622-458E-AB2C-C86340F0A559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47C5EC9-0622-458E-AB2C-C86340F0A559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47C5EC9-0622-458E-AB2C-C86340F0A559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47C5EC9-0622-458E-AB2C-C86340F0A559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B639406-7326-4E7F-AFD4-63FCD252F06D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B639406-7326-4E7F-AFD4-63FCD252F06D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B639406-7326-4E7F-AFD4-63FCD252F06D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B639406-7326-4E7F-AFD4-63FCD252F06D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{463AD658-AD35-407A-8157-5ABF58E7B0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{463AD658-AD35-407A-8157-5ABF58E7B0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{463AD658-AD35-407A-8157-5ABF58E7B0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{463AD658-AD35-407A-8157-5ABF58E7B0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBDDCC0-8EC4-44DA-A7F8-34DDEB143414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBDDCC0-8EC4-44DA-A7F8-34DDEB143414}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBDDCC0-8EC4-44DA-A7F8-34DDEB143414}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBDDCC0-8EC4-44DA-A7F8-34DDEB143414}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9718E18-3949-4FC5-BEEB-9AE4F1F76F2A} = {55C035CF-8D4A-4620-970F-1A0B1AADAFFD}
+		{F47C5EC9-0622-458E-AB2C-C86340F0A559} = {D395CE08-0047-4F17-B2B5-1F58C17E584D}
+		{8B639406-7326-4E7F-AFD4-63FCD252F06D} = {55C035CF-8D4A-4620-970F-1A0B1AADAFFD}
+		{463AD658-AD35-407A-8157-5ABF58E7B0C1} = {060C6A82-4C19-4AA2-8A13-D09C8A7C4D9D}
+		{2CBDDCC0-8EC4-44DA-A7F8-34DDEB143414} = {060C6A82-4C19-4AA2-8A13-D09C8A7C4D9D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A527CC8-238A-4A59-BB3A-6799691EA31F}
+	EndGlobalSection
+EndGlobal

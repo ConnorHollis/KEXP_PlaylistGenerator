@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "KEXP_PlaylistGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "search -s 2021-11-10T20:34:32-08:00 -e 2021-11-14T20:34:32-08:00 -t Show -o Full -f \"Pacific\"",
+      "workingDirectory": "E:\\Dev\\Personal\\KEXP_PlaylistGenerator\\KEXP_PlaylistGenerator"
+    }
+  }
+}
